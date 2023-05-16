@@ -14,5 +14,8 @@ end
 vim.keymap.set('n', '<leader>ff', git_files, {desc = 'Search [G]it [F]iles'})
 
 
+vim.keymap.set({"n", "v", "i"}, "<C-a>", "<Home>")
+vim.keymap.set({"n", "v", "i"}, "<C-e>", "<End>")
+
 vim.opt.relativenumber = true
 
